@@ -5,51 +5,13 @@
 This project is ideal for understanding form handling, basic animations, and a toggling interface between login and signup forms.
 
 ---
-
-## 📂 Project Structure  
-
-type ProjectStructure {
-  root: Directory
-}
-
-type Directory {
-  name: String
-  description: String
-  contents: [FileOrDirectory]
-}
-
-union FileOrDirectory = File | Directory
-
-type File {
-  name: String
-  description: String
-}
-
-# Example Query:
-query ProjectStructure {
-  root {
-    name
-    description
-    contents {
-      ... on Directory {
-        name
-        description
-        contents {
-          ... on File {
-            name
-            description
-          }
-        }
-      }
-      ... on File {
-        name
-        description
-      }
-    }
-  }
-}
-
-
+## 📂 Project Structure
+graphql
+Copy code
+├── index.html       # Main HTML file
+├── style.css        # CSS for styling
+├── index.js         # JavaScript for form functionality
+└── bootstrap-icons  # Icons for a modern UI
 ---
 
 ## ✨ Features  
@@ -94,18 +56,6 @@ query ProjectStructure {
 
 3. Explore the features:  
    - Toggle between **Sign In** and **Sign Up** forms using the links provided.
-
----
-
-## 📸 Screenshots  
-
-### Sign In Form  
-
-![Sign In Form](https://via.placeholder.com/600x300?text=Sign+In+Form+Screenshot)  
-
-### Sign Up Form  
-
-![Sign Up Form](https://via.placeholder.com/600x300?text=Sign+Up+Form+Screenshot)  
 
 ---
 
