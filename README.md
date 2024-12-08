@@ -4,15 +4,12 @@
 
 This project is ideal for understanding form handling, basic animations, and a toggling interface between login and signup forms.
 
----
-📂 Project Structure
-graphql
-Copy code
+## 📂 Project Structure
+
 ├── index.html       # Main HTML file
 ├── style.css        # CSS for styling
 ├── index.js         # JavaScript for form functionality
 └── bootstrap-icons  # Icons for a modern UI
----
 
 ## ✨ Features  
 
@@ -21,16 +18,12 @@ Copy code
 - **Interactive Forms**: Includes form validation and toggle effects.  
 - **Modern Aesthetic**: Clean and visually appealing design.  
 
----
-
 ## 🔧 Technologies Used  
 
 - **HTML**: For the structure of the forms.  
 - **CSS**: For styling the forms, buttons, and animations.  
 - **JavaScript**: For toggling between login and signup forms.  
 - **Bootstrap Icons**: For adding icons to input fields.  
-
----
 
 ## 🚀 Getting Started  
 
@@ -57,8 +50,6 @@ Copy code
 3. Explore the features:  
    - Toggle between **Sign In** and **Sign Up** forms using the links provided.
 
----
-
 ## 🙌 Contributing  
 
 1. **Fork this repository**.  
@@ -73,22 +64,13 @@ Copy code
    ```  
 5. **Submit a pull request**.  
 
----
 
 ## 📄 License  
 
 This project is licensed under the **MIT License**.  
 
----
-
 ## ✉️ Contact  
 
 Feel free to reach out via [GitHub Issues](https://github.com/MohammadBilalCSE/) for support or feedback.  
 
---- 
-
 ### ⭐ Don't forget to **star** the repository if you find it helpful!  
-
----
-
-Let me know if you'd like to modify or add any details!
