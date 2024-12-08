@@ -5,7 +5,7 @@
 This project is ideal for understanding form handling, basic animations, and a toggling interface between login and signup forms.
 
 ---
-## 📂 Project Structure
+📂 Project Structure
 graphql
 Copy code
 ├── index.html       # Main HTML file
